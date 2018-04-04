@@ -291,7 +291,7 @@ Now, try the same call, using the certificate/key pair provisioned by Istio as t
 ```
 curl https://details:9080/details/0 -v --key /etc/certs/key.pem --cert /etc/certs/cert-chain.pem --cacert /etc/certs/root-cert.pem -k
 ```
-## 8 - Miscellanous - Various commands/cheatsheet
+## 8 - Miscellanous/Various commands
 When poking at Envoy you can also display the IP tables rules that allow the interception/redirection of the traffic, you can take a look at the processes listening in the proxy, or if you're running the debug version (with curl) you can query the API locally
 ```
 netstat -nlp
